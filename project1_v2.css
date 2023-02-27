@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navigation text */
+.text{
+    color: rgba(69,56,77,255);
+    text-align: center;
+}
+
+/* hover navigation */
+.hover1:hover{
+    background-color: #473d4d;
+    padding: 5px;
+    border-radius: 10px;
+    color: #f3ab8d;
+    box-shadow: 0 0 4px #945464;
+    opacity: 0.9;
+    font-size: large;
+}
+
+/* hover footer social media */
+.hover2:hover{
+    background-color: #a1635f;
+    padding: 0px;
+    border-radius: 30px;
+    color: #f3ab8d;
+    box-shadow: 0 0 10px #945464;
+    opacity: 0.9;
+    font-size: x-large;
+}
+
+/* hover footer links*/
+.hover3:hover{
+    background-color: #f3ab8d;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #473d4d;
+    opacity: 0.9;
+    font-size: large;
+}
+/* Products Hover */
+.hover4:hover{
+    border-radius: 10px;
+    box-shadow: 0 0 10px red;
+    opacity: 0.9;
+    font-size: large;
+}
+.bg1{
+    background-color: #f3ab8d;
+    color: rgba(69,56,77,255);
+}
+
+.bg2{
+    background-color: rgba(239,131,108,255);
+}
+
+
+/* About content */
+.text2{
+    color: #44384c;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5vw;
+    text-indent: 50px;
+}
+
+.customer{
+    margin: 20px 100px 50px 100px;
+    padding: 0px 0px 0px 0px;
+}
+
+.tfooter1{
+    background-color: #f3ab8d;
+    color: #44384c;
+    width: 60px;
+    height: 2px;
+}
+
+.tfooter2{
+    color: #f3ab8d;
+    background-color: #a1635f;
+    text-decoration: none;
+    font-size: 1.4vw;
+}
