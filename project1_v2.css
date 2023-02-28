@@ -90,19 +90,7 @@
     margin-top: 40px;
     
 }
-
-@media only screen and (min-width: 768px) {
-    .profile {
-        margin-top: 60px;
-    }
-}
-
-@media only screen and (min-width: 1000px) {
-    .profile {
-        margin-top: 90px;
-    }
-}
-
+/* customer feedback */
 .pcustomer {
     margin-top: 10px;
     align-items: center;
@@ -111,37 +99,9 @@
     width: 400px;
 }
 
-@media only screen and (min-width: 768px) {
-    .pcustomer {
-        margin-top: 5px;
-        display:contents;
-        padding: 5px;
-    }
-}
-
-@media only screen and (min-width: 1000px) {
-    .pcustomer {
-        margin-top: 4px;
-        display: flex;
-        justify-content: left;
-    }
-}
-
 /* footer text */
 .ftext {
     font-size: small;
-}
-
-@media only screen and (min-width: 768px) {
-    .ftext {
-        font-size: small;
-    }
-}
-
-@media only screen and (min-width: 1000px) {
-    .ftext {
-        font-size: medium;
-    }
 }
 
 /* footer copyright */
@@ -149,30 +109,69 @@
     text-align: center;
 }
 
-@media only screen and (min-width: 768px) {
-    .copyr {
-        text-align: right;
-    }
-}
-
-@media only screen and (min-width: 1000px) {
-    .copyr {
-        text-align: right;
-    }
-}
-
 .copyl {
     text-align: center;
 }
 
+.mcustomer {
+    width: 255px;
+    height: 200px;
+}
+
 @media only screen and (min-width: 768px) {
+    .profile {
+        margin-top: 60px;
+    }
+
+    .pcustomer {
+        margin-top: 5px;
+        display:contents;
+        padding: 5px;
+    }
+
+    .ftext {
+        font-size: small;
+    }
+
+    .copyr {
+        text-align: right;
+    }
+
     .copyl {
         text-align: left;
+    }
+
+    .mcustomer {
+        width: 30vw;
+        height: 36vh;
     }
 }
 
 @media only screen and (min-width: 1000px) {
+    .profile {
+        margin-top: 90px;
+    }
+    
+    .pcustomer {
+        margin-top: 4px;
+        display: flex;
+        justify-content: left;
+    }
+
+    .ftext {
+        font-size: medium;
+    }
+
+    .copyr {
+        text-align: right;
+    }
+
     .copyl {
         text-align: left;
+    }
+
+    .mcustomer {
+        width: 35vw;
+        height: 55vh;
     }
 }
