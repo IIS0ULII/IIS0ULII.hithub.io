@@ -118,6 +118,17 @@
     height: 200px;
 }
 
+.active1{
+    background-color: #473d4d;
+    padding: 5px;
+    border-radius: 10px;
+    color: #f3ab8d;
+    box-shadow: 0 0 4px #945464;
+    opacity: 0.9;
+    font-size: large;
+}
+
+
 @media only screen and (min-width: 768px) {
     .profile {
         margin-top: 60px;
